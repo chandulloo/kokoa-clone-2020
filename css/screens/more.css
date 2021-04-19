@@ -1,0 +1,40 @@
+.user-component__title_icon {
+  display: flex;
+  flex-direction: row;
+}
+.user-component__title_icon i {
+  margin-top: 8px;
+  margin-left: 4px;
+  color: tomato;
+}
+.main-screen {
+  margin-bottom: 200px;
+}
+.more-screen .icon-row {
+  margin-top: 35px;
+}
+.more-suggestions {
+  margin-top: 50px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+.more-suggestions__title {
+  margin-bottom: 30px;
+}
+.more-suggestions__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.more-suggestions__icon {
+  margin: 0 20px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: 500;
+}
+.more-suggestions__icon-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
